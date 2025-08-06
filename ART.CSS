@@ -1,0 +1,282 @@
+/* Estilo do cabeçalho */
+header {
+display: flex;
+align-items: center;
+padding: 10px;
+background-color:000;
+color: rgb(0, 0, 0);
+}
+
+/* Estilo da imagem dentro do cabeçalho */
+header img {
+height: 200px;
+margin-right:0px;
+}
+
+/* Estilo do título */
+header h1 {
+font-size: 50em;
+margin: 20;
+}
+
+.myDiv{
+color: rgb(142, 13, 255);
+border: px outset;
+background-color: rgb(15, 15,15);
+text-align: center;
+font-size: 32px;
+text-shadow: 2px 2px 4px rgb(0, 0, 0);
+padding: 20px;
+margin: 20px;
+}
+
+
+.ico{
+height: 32px;
+width: 32px;
+padding: 0 20px;
+}
+
+.icon{
+height: 128px;
+width: 128px;
+padding: 0 20px;
+}
+
+.metallica{
+height: 128px;
+width: 256px;
+padding: 0 20px;
+}
+
+
+/* Importa a fonte local */
+@font-face {
+font-family: 'Unageo';
+src: url('Unageo-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+/* Aplica a fonte ao site inteiro */
+html, body {
+font-family: 'Unageo', sans-serif;
+margin: 0;
+padding: 0
+}
+
+
+.iconE{
+height: 238px;
+width: 238px;
+padding: 0 20px;
+}
+
+.page{
+color: rgb(242, 242, 242);
+border: 3px outset;
+border-color:rgb(95, 95, 95);
+background-color: rgb(10, 9, 13);
+text-align: left;
+font-size: 58px;
+text-shadow: 2px 2px 4px rgb(0, 0, 0);
+padding: 5px;
+margin: 5px;
+}
+
+.music{
+height: 64px;
+width: 64px;
+text-align: center;
+font-size: 13px;
+}
+
+.myDiv1{
+color: rgb(255, 255, 255);
+border: 5px outset;
+background-color: rgb(10, 9, 13);
+text-align: center;
+font-size: 13px;
+padding: 20px;
+margin: 20px;
+}
+
+.text{
+color: rgb(242, 242, 242);
+border: 0px outset;
+border-color:rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+text-align: center;
+font-size: 34px;
+text-shadow: 2px 2px 4px rgb(0, 0, 0);
+padding: 5px;
+margin: 5px;
+}
+
+body {
+margin: 0;
+padding: 2rem;
+font-family: 'Unageo', sans-serif;
+background-color: #0f0f0f;
+color: #fff;
+}
+
+.album-header {
+display: flex;
+align-items: center;
+gap: 1.5rem;
+margin-bottom: 2rem;
+}
+
+.album-header img {
+width: 400px;
+height: 400px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.album-info h1 {
+font-size: 2rem;
+margin: 0;
+}
+
+.album-info p {
+color: #aaa;
+font-size: 0.9rem;
+}
+
+.tracklist {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.track {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #1a1a1a;
+padding: 0.75rem 1rem;
+border-radius: 6px;
+transition: background 0.3s;
+}
+
+.track:hover {
+background-color: #252525;
+}
+
+.track .left {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.track .left img {
+width: 40px;
+height: 40px;
+border-radius: 4px;
+}
+
+.track .number {
+color: #999;
+font-size: 0.9rem;
+}
+
+.track .title {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+.track .title:hover {
+text-decoration: underline;
+}
+
+.track .right {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.track .right button {
+background: none;
+border: none;
+color: #999999;
+font-size: 1.2rem;
+cursor: pointer;
+}
+
+.track .right button:hover {
+color: #fff;
+}
+
+.track .duration {
+color: #ccc;
+font-size: 0.9rem;
+}
+
+.track.playing {
+background-color: #333;
+}
+
+.track.playing .title {
+color: rgb(142, 13, 255); 
+}
+
+.voltar-topo {
+position: fixed;
+bottom: 10px;
+right: 10px;
+background-color: #111;
+color: #fff;
+padding: 10px 10px;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+box-shadow: 0 0 0px #000;
+transition: background-color 0.5s ease;
+}
+
+.voltar-topo:hover {
+background-color: #444;
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(20px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(20px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.voltar-topo {
+position: fixed;
+bottom: 10px;
+right: 5px;
+background-color: #111;
+color: #fff;
+padding: 10px 15px;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+box-shadow: 0 0 0px #000;
+transition: background-color 0.3s ease, opacity 0.3s ease;
+z-index: 999;
+}
+.voltar-topo:hover {
+background-color: #444;
+}
